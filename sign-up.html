@@ -3,55 +3,67 @@
 <head>
 	<title>Sign up</title>
 </head>
-<body style="background-color: silver">
-	<div>
+<style type="text/css">
+	body {
+		padding-left: 70px;
+		padding-right: 70px;
+		padding-top: 25px;
+	}
+	form {
+		padding-top: 25px;
+		padding-right: 300px;
+		padding-left: 300px;
+	}
+</style>
+<body>
+	<div align="right">
 		<nav>
 			<a href="index.html">Home</a>
 			<a href="sign-up.html">Lessons</a>
 			<a href="about.html">About</a>
 		</nav>
 	</div>
-	<div align="center" style="background-color: lightgrey">
+	<div>
 		<form name="sign-up" action="sign-up-confirm.html" method="post">
-		<fieldset>
-			<div>
-				<h3>Climbing Lesson Sign-Up</h3>
-			</div>
-			<div>
-				<label>Name</label><br>
-				<input type="text" name="name" placeholder="Full Name">
-			</div>
-			<div>
-				<label>Age</label><br>
-				<input type="radio" name="age" value="8-14">8 - 14</input><br>
-				<input type="radio" name="age" value="15-18">15 - 18</input><br>
-				<input type="radio" name="age" value="18-30">18 - 30</input><br>
-				<input type="radio" name="age" value=">30">Over 30</input><br>
-			</div>
-			<div>
-				<label>When would you like a lesson?</label><br>
-				<input type="date"></input>
-			</div>
-			<div>
-				<label>Years climbing</label><br>
-				<select name="years-climbing">
-					<option value="<1">Less than 1</option>
-					<option value="1">1</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-					<option value=">4">4 or more</option>
-				</select>
-			</div>
-			<div>
-				<label></label>
-			</div>
-			<div>
-				<label>Tell me a little bit about what you want to get out of your lesson</label><br>
-				<textarea placeholder="During our lesson I really want to learn about..."></textarea>
-			</div>
-			<button type="submit">Submit</button>
-		</fieldset>
-	</form>
+			<fieldset>
+				<div>
+					<h3>Climbing Lesson Sign-Up</h3>
+				</div>
+				<div>
+					<label>Name</label><br>
+					<input type="text" name="name" placeholder="Full Name">
+				</div>
+				<div>
+					<label>Age</label><br>
+					<input type="radio" name="age" value="8-14">8 - 14</input><br>
+					<input type="radio" name="age" value="15-18">15 - 18</input><br>
+					<input type="radio" name="age" value="18-30">18 - 30</input><br>
+					<input type="radio" name="age" value=">30">Over 30</input><br>
+				</div>
+				<div>
+					<label>When would you like a lesson?</label><br>
+					<input type="date"></input>
+				</div>
+				<div>
+					<label>Years climbing</label><br>
+					<select name="years-climbing">
+						<option value="<1">Less than 1</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value=">4">4 or more</option>
+					</select>
+				</div>
+				<div>
+					<label></label>
+				</div>
+				<div>
+					<label>Tell me a little bit about what you want to get out of your lesson</label><br>
+					<textarea placeholder="During our lesson I really want to learn about..."></textarea>
+				</div>
+				<button type="submit">Submit</button>
+			</fieldset>
+		</form>
 	</div>
 </body>
 </html>
