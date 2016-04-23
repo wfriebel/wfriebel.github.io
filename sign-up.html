@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up</title>
+</head>
+<body>
+	<div align="center" style="background-color:lightgrey;">
+		<form name="sign-up" action="sign-up-confirm.html" method="post">
+		<fieldset>
+			<div>
+				<h3>Climbing Lesson Sign-Up</h3>
+			</div>
+			<div>
+				<label>Name</label><br>
+				<input type="text" name="name" placeholder="Full Name">
+			</div>
+			<div>
+				<label>Age</label><br>
+				<input type="radio" name="age" value="8-14">8 - 14</input><br>
+				<input type="radio" name="age" value="15-18">15 - 18</input><br>
+				<input type="radio" name="age" value="18-30">18 - 30</input><br>
+				<input type="radio" name="age" value=">30">Over 30</input><br>
+			</div>
+			<div>
+				<label>When would you like a lesson?</label><br>
+				<input type="date"></input>
+			</div>
+			<div>
+				<label>Years climbing</label><br>
+				<select name="years-climbing">
+					<option value="<1">Less than 1</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value=">4">4 or more</option>
+				</select>
+			</div>
+			<div>
+				<label></label>
+			</div>
+			<div>
+				<label>Tell me a little bit about what you want to get out of your lesson</label><br>
+				<textarea placeholder="During our lesson I really want to learn about..."></textarea>
+			</div>
+			<button type="submit">Submit</button>
+		</fieldset>
+	</form>
+	</div>
+</body>
+</html>
