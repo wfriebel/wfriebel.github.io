@@ -3,48 +3,133 @@
 <head>
 	<title>Sign up</title>
 </head>
+<style type="text/css">
+	body {
+		padding-left: 70px;
+		padding-right: 70px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	form {
+		padding-top: 25px;
+		padding-right: 300px;
+		padding-left: 300px;
+	}
+	td {
+		text-align: center;
+	}
+</style>
 <body>
-	<div align="center" style="background-color:lightgrey;">
+	<div align="right">
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="sign-up.html">Lessons</a>
+			<a href="about.html">About</a>
+			<a href="resources.html">Resources</a>
+		</nav>
+	</div>
+	<h1>Climbing Lessons</h1>
+	<hr>
+	<div>
 		<form name="sign-up" action="sign-up-confirm.html" method="post">
-		<fieldset>
-			<div>
-				<h3>Climbing Lesson Sign-Up</h3>
-			</div>
-			<div>
-				<label>Name</label><br>
-				<input type="text" name="name" placeholder="Full Name">
-			</div>
-			<div>
-				<label>Age</label><br>
-				<input type="radio" name="age" value="8-14">8 - 14</input><br>
-				<input type="radio" name="age" value="15-18">15 - 18</input><br>
-				<input type="radio" name="age" value="18-30">18 - 30</input><br>
-				<input type="radio" name="age" value=">30">Over 30</input><br>
-			</div>
-			<div>
-				<label>When would you like a lesson?</label><br>
-				<input type="date"></input>
-			</div>
-			<div>
-				<label>Years climbing</label><br>
-				<select name="years-climbing">
-					<option value="<1">Less than 1</option>
-					<option value="1">1</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-					<option value=">4">4 or more</option>
-				</select>
-			</div>
-			<div>
-				<label></label>
-			</div>
-			<div>
-				<label>Tell me a little bit about what you want to get out of your lesson</label><br>
-				<textarea placeholder="During our lesson I really want to learn about..."></textarea>
-			</div>
-			<button type="submit">Submit</button>
-		</fieldset>
-	</form>
+			<fieldset>
+				<div>
+					<h3>Climbing Lesson Sign-Up</h3>
+				</div>
+				<div>
+					<label>Name</label><br>
+					<input type="text" name="name" placeholder="Full Name">
+				</div>
+				<div>
+					<label>Age</label><br>
+					<input type="radio" name="age" value="8-14">8 - 14</input><br>
+					<input type="radio" name="age" value="15-18">15 - 18</input><br>
+					<input type="radio" name="age" value="18-30">18 - 30</input><br>
+					<input type="radio" name="age" value=">30">Over 30</input><br>
+				</div>
+				<div>
+					<label>When would you like a lesson?</label><br>
+					<input type="date"></input>
+				</div>
+				<div>
+					<label>Years climbing</label><br>
+					<select name="years-climbing">
+						<option value="<1">Less than 1</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value=">4">4 or more</option>
+					</select>
+				</div>
+				<div>
+					<label></label>
+				</div>
+				<div>
+					<label>Tell me a little bit about what you want to get out of your lesson</label><br>
+					<textarea placeholder="During our lesson I really want to learn about..."></textarea>
+				</div>
+				<button type="submit">Submit</button>
+			</fieldset>
+		</form>
+	</div>
+	<div align="center">
+		<h2>My Availability</h2>
+		<div>
+			<table border="1px">
+				<thead>
+					<tr>
+						<td></td>
+						<th scope="col">Monday</th>
+						<th scope="col">Tuesday</th>
+						<th scope="col">Wednesday</th>
+						<th scope="col">Thursday</th>
+						<th scope="col">Friday</th>
+						<th scope="col">Saturday</th>
+						<th scope="col">Sunday</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">Dogpatch Boulders, San Francisco</th>
+						<td>X</td>
+						<td>X</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">Planet Granite, San Francisco</th>
+						<td></td>
+						<td></td>
+						<td>X</td>
+						<td>X</td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">Planet Granite, Sunnyvale</th>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>X</td>
+						<td>X</td>
+						<td>X</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div style="padding-top: 25px;">
+		<hr>
+		<p><b>Contact</b></p>
+		<address>
+			<p><a href="mailto:fakemail@fakemail.com">fakemail@fakemail.com</a></p>
+			<p>Mountain View, CA</p>
+		</address>
 	</div>
 </body>
 </html>
