@@ -8,11 +8,15 @@
 		padding-left: 70px;
 		padding-right: 70px;
 		padding-top: 25px;
+		padding-bottom: 25px;
 	}
 	form {
 		padding-top: 25px;
 		padding-right: 300px;
 		padding-left: 300px;
+	}
+	td {
+		text-align: center;
 	}
 </style>
 <body>
@@ -21,8 +25,11 @@
 			<a href="index.html">Home</a>
 			<a href="sign-up.html">Lessons</a>
 			<a href="about.html">About</a>
+			<a href="resources.html">Resources</a>
 		</nav>
 	</div>
+	<h1>Climbing Lessons</h1>
+	<hr>
 	<div>
 		<form name="sign-up" action="sign-up-confirm.html" method="post">
 			<fieldset>
@@ -64,6 +71,65 @@
 				<button type="submit">Submit</button>
 			</fieldset>
 		</form>
+	</div>
+	<div align="center">
+		<h2>My Availability</h2>
+		<div>
+			<table border="1px">
+				<thead>
+					<tr>
+						<td></td>
+						<th scope="col">Monday</th>
+						<th scope="col">Tuesday</th>
+						<th scope="col">Wednesday</th>
+						<th scope="col">Thursday</th>
+						<th scope="col">Friday</th>
+						<th scope="col">Saturday</th>
+						<th scope="col">Sunday</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">Dogpatch Boulders, San Francisco</th>
+						<td>X</td>
+						<td>X</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">Planet Granite, San Francisco</th>
+						<td></td>
+						<td></td>
+						<td>X</td>
+						<td>X</td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">Planet Granite, Sunnyvale</th>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>X</td>
+						<td>X</td>
+						<td>X</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div style="padding-top: 25px;">
+		<hr>
+		<p><b>Contact</b></p>
+		<address>
+			<p><a href="mailto:fakemail@fakemail.com">fakemail@fakemail.com</a></p>
+			<p>Mountain View, CA</p>
+		</address>
 	</div>
 </body>
 </html>
