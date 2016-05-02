@@ -1,0 +1,158 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: helvetica;
+}
+
+img {
+	width: 350px;
+}
+
+.main-1 {
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+}
+
+nav {
+	height: 20px;
+	margin: 12px;
+	position: absolute;
+	z-index: 2;
+	right: 0;
+}
+
+.main-1 a {
+	color: white;
+	text-decoration: none;
+}
+
+.navbar-item {
+	float: right;
+	font-weight: bold;
+	font-size: 16px;
+	padding-right: 10px;
+}
+
+.main-1 h1 {
+	color: white;
+	margin: 12px;
+	padding: 0;
+	position: absolute;
+	z-index: 2;
+	font-size: 30px;
+	left: 50px;
+}
+
+.main-1 img {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+.call-to-action {
+	position: absolute;
+	width: 220px;
+	height: 100px;
+	text-align: center;
+	padding: 0 6px;
+	color: white;
+	bottom: 20px;
+	z-index: 2;
+	font-size: 80px;
+	border-style: solid;
+	border-color: white;
+	border-width: 3px;
+	left: 50%;
+	top: 33%;
+	transform: translate(-50%, -50%);
+}
+
+#down-arrow {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 5px;
+	z-index: 2;
+}
+
+main {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 1.5%;
+}
+
+main h2 {
+	margin: 0 0;
+}
+
+.video-section {
+	width: 100%;
+}
+
+.cell {
+	float: left;
+	width: 29%;
+	padding: 1%;
+	margin: 1%;
+}
+
+.video-section:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+footer {
+	width: 100%;
+	background-color: lightgray;
+	padding: 1.5% 5%;
+	margin: 0;
+}
+
+footer h2 {
+	margin: 0;
+	margin-bottom: 1%;
+}
+
+.footer-infobox {
+	width: 100%;
+	overflow: auto;
+}
+
+.footer-item {
+	margin: .5% .5% .5% 0;
+}
+
+.credits {
+	margin: 1% .5% .5% 0;
+}
+
+#highlight {
+	font-family: fantasy;
+	color: red;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+a:visited {
+	color: lightgray;
+}
+
+.about-body {
+	background-image: url(images/bridge.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1200px) {
+    .cell {
+        display: block;
+        float: none;
+    }
+}
